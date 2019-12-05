@@ -10,3 +10,10 @@ p.cont1{
 	color red;
 	size 16;
 }
+.site-footer {
+	display: flex;
+	justify-content: space-between;
+	color: #999999;
+	background-position: right; 
+	font-size:  13px;
+}
