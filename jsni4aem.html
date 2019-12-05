@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>КуПриветЗдарова</title>
+</head>
+<script src="line.js"></script>
+<script>
+function clock_form() {
+let day = new Date()
+let clock_f = day.getHours() + ":" + day.getMinutes() + ":" + day.getSeconds();
+document.form2.f_clock.value=clock_f
+let id = setTimeout("clock_form()", 100)
+}
+</script>
+<script>
+function calc() {
+let x = parseFloat(prompt("Введите число х", ""))
+let z = parseFloat(prompt("Введите число z", ""))
+
+alert("Результат умножения y = " + x*z)
+}
+</script>
+<body onload="m_line(); clock_form()">
+
+<center>
+<form name="form">
+<input type="text" size="35" name="ctc">
+</form>
+<br>
+<form name="form2">
+<input type="text" name="f_clock">
+</form>
+<br>
+<button onclick="calc()">Умножить</button>
+</center>
+
+</body>
+</html>
