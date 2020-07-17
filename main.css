@@ -8,7 +8,6 @@ body {
 }
 
 div {
-  background-color: blue;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -18,11 +17,20 @@ div {
   height: 320px;
 
   float: left;
-  border-radius: 20px;
 }
 
 img {
   width: 240px;
   height: 320px;
+  border-radius: 20px;
+}
+
+.layout-two {
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.layout-three {
+  background-color: blue;
   border-radius: 20px;
 }
