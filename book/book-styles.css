@@ -1,0 +1,81 @@
+body {
+  height: 842px;
+  width: 595px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Condensed";
+}
+
+p {
+  font-family: "PlayFair Display";
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.cover-book {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #00ff00;
+}
+
+h2 {
+  font-size: 42px;
+  color: blueviolet;
+}
+
+h3 {
+  font-size: 36px;
+  color: yellow;
+}
+
+h4 {
+  font-size: 28px;
+  color: aquamarine;
+}
+
+.hat-table {
+  background-color: #e0ffff;
+  font-family: "PlayFair Display";
+}
+
+.hat-table-text {
+  text-align: center;
+}
+
+.point {
+  text-align: right;
+}
+
+.tablica {
+  border-collapse: collapse;
+}
+
+.tablica TD,
+TH {
+  padding: 3px; /* Поля вокруг содержимого таблицы */
+  border: 1px solid black; /* Параметры рамки */
+  text-align: left;
+  width: 50%;
+}
+
+.university {
+  font-style: italic;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.priorat-color {
+  color: blue;
+}
+
+.valid-logo {
+  margin-top: auto;
+  margin-left: 20px;
+}
