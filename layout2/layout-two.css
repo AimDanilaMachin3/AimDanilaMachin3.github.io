@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header {
+  margin-bottom: 20px;
+
+  background-color: #30bcdf;
+  padding: 30px;
+}
+
+.header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+  float: left;
+  width: 260px;
+  padding: 35px 0;
+
+  background-color: #94e5f9;
+
+  font-size: 42px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation {
+  float: right;
+  width: 460px;
+  padding: 35px 0;
+
+  background-color: #94e5f9;
+
+  font-size: 42px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* .container {
+    margin-bottom: 20px;
+  
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .content {
+    margin-left: 260px;
+    margin-right: 260px;
+
+    background-color: #e4e5b5;
+    padding-top: 211px;
+    padding-bottom: 211px;
+  
+    color: #545441;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  
+  }
+  
+  .right-column {
+  float: right;
+  
+    width: 240px;
+  
+    background-color: #30df93;
+    padding-top: 125px;
+    padding-bottom: 125px;
+  
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  */
+.footer {
+  background-color: #828889;
+  padding: 30px;
+
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-column {
+  margin-right: 30px;
+
+  width: 240px;
+  padding: 55px 0;
+
+  background-color: #bababa;
+
+  font-size: 38px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-column:last-child {
+  margin-right: 0px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.left-column {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  float: left;
+
+  width: 280px;
+
+  background-color: #30df93;
+  padding: 30px;
+
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.left-column-block {
+  width: 220px;
+  background-color: #83fcc8;
+
+  margin-bottom: 30px;
+
+  padding: 55px 0;
+
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.left-column-block:last-child {
+  margin-bottom: 0;
+}
+
+.content {
+  float: right;
+
+  width: 680px;
+
+  background-color: #e4e5b5;
+  padding-top: 211px;
+  padding-bottom: 211px;
+
+  color: #545441;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  margin-bottom: 20px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
