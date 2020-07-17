@@ -4,7 +4,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 div {
@@ -28,9 +28,11 @@ img {
 .layout-two {
   background-color: blue;
   border-radius: 20px;
+  text-align: center;
 }
 
 .layout-three {
   background-color: blue;
   border-radius: 20px;
+  text-align: center;
 }
