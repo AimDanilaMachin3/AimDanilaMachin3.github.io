@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Tucson {
+  width: 100%;
+  height: 992px;
+
+  position: relative;
+}
+
+.Tucson__backgroungImage {
+  width: 100%;
+  height: 855px;
+
+  background-image: url(../img/abstrakcii-sinij-volny.png);
+  background-color: #091830;
+
+  padding: 41px 120px;
+}
+
+/* HEADER */
+.Tucson__header {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 64px;
+
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Tucson__header__logo {
+  width: 220px;
+  height: 64px;
+
+  background-image: url(../img/Logo.png);
+}
+
+.Tucson__header__adress {
+  width: 327px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Tucson__header__adress__itemSvg {
+  width: 24px;
+  height: 30px;
+
+  background-image: url(../icons/Vector.svg);
+}
+
+.Tucson__header__adress__itemText {
+  width: 285px;
+  height: 38px;
+}
+
+.Tucson__header__links {
+  width: 460px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Tucson__header__links__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.Tucson__header__phonenumber {
+  width: 215px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Tucson__header__phonenumber__phone {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Tucson__header__phonenumber__text a {
+  color: #fb620b;
+}
+
+/* CONTENT */
+
+.Tucson__request {
+  width: 720px;
+  height: 430px;
+
+
+  margin-top: 170px;
+  margin-left: 240px;
+
+  font-family: "Montserrat", sans-serif;
+  color: white;
+
+
+}
+
+.Tucson__request__itemH1 {
+  width: 722px;
+  height: 220px;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 76px;
+}
+
+.Tucson__request__itemText {
+  width: 504px;
+  height: 60px;
+  font-size: 24px;
+  padding-bottom: 147px;
+
+}
+
+.Tucson__request__itemButtom {
+  width: 265px;
+  height: 63px;
+  background-color: #fb620b;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text {
+
+  padding: 21px 44px ;
+}
+
+.Tucson__Tucson {
+  width: 1115px;
+  height: 610px;
+
+  background-image: url(../img/Hyundai_Tucson_White.png);
+  background-repeat: no-repeat;
+  position: absolute;
+
+  margin-left: 725px;
+  margin-top: -290px;
+}
